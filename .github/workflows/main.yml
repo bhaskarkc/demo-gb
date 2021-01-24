@@ -6,9 +6,9 @@ jobs:
     name: Global Protect
     steps:
         - name: Test GB
-           uses: bhaskarkc/docker-global-protect@v0.0.2
-            env:
-              USER: ${{ secrets.GB_USER }}
-              PASS: ${{ secrets.GB_PASSWORD }}
-              SERVER: ${{ secrets.GB_SERVER }}
-              TEST_SERVER: ${{ secrets.TEST_SERVER }}
+          uses: bhaskarkc/docker-global-protect@v0.0.2
+          env:
+            USER: ${{ secrets.GB_USER }}
+            PASS: ${{ secrets.GB_PASSWORD }}
+            SERVER: ${{ secrets.GB_SERVER }}
+            TEST_SERVER: ${{ secrets.TEST_SERVER }}
